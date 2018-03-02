@@ -1,0 +1,31 @@
+body {
+    margin: 0px;
+}
+div.row div, .pacman {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-size: contain;
+    margin: 0px;
+    padding: 0px;
+}
+div.row {
+    margin: 0px;
+    padding: 0px;
+}
+div.wall {
+    background-color: blue;
+}
+div.coin {
+    background: url("coin.png");
+}
+div.cherry {
+    background: url("cherry.png");
+}
+div.pacman {
+    position: absolute;
+}
+#score {
+    font-size: 24pt;
+    color: darkgreen;
+}
